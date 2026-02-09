@@ -1,4 +1,4 @@
-# Analizador Lexico en C usando Flex y una Interfaz Grafica
+# Analizador Lexico en C usando Flex con GUI
 
 Este proyecto consiste en el desarrollo de un analizador lexico basico utilizando Flex y el lenguaje C, junto a una interfaz grafica sencilla para facilitar las pruebas del analizador.
 
@@ -39,4 +39,21 @@ gcc gui.c -o gui `pkg-config --cflags --libs gtk+-3.0`
 
 Una vez ejecutada la aplicacion grafica, se puede introducir texto y analizarlo de forma visual
 
-## Nota final: La interfaz GUI es sencilla y funcional ya que no se priorizo tanto la forma visual sino mas bien el funcionamiento del analizador lexico, cualquier cosa puede estar sujetas a cambios/mejoras.
+## Ejemplo de prueba
+
+Codigo que puedes probar en el analizador:
+
+begin
+    var x = 5;
+    print x;
+end
+
+
+## Nota final 
+La interfaz GUI es sencilla y funcional ya que no se priorizo tanto la forma visual sino mas bien el funcionamiento del analizador lexico, cualquier cosa puede estar sujetas a cambios/mejoras.
+
+## Repositorio GitHub
+
+Todo el proyecto tambien se puede consultar en GitHub:
+
+https://github.com/W1lderJz/Compiladores--2-21-0179--AnalizadorLexico-C-GUI
